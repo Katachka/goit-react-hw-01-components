@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.status__true {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #08f91c;
+}
+.status__false {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #ef0707;
+}
+.avatar {
+  padding: 15px;
+  margin-right: 20px;
+  border: 1px solid #7b7f7f;
+  border-radius: 8px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
